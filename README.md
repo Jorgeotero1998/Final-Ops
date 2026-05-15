@@ -1,4 +1,4 @@
-## Aplicación Full Stack de Gestión de Tareas
+# Aplicación Full Stack de Gestión de Tareas
 
 
 Descripción general
