@@ -1,0 +1,7 @@
+﻿venv/
+node_modules/
+__pycache__/
+tasks.db
+.env
+frontend/node_modules/
+backend/venv/
