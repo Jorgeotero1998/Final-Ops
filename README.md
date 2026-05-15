@@ -1,4 +1,4 @@
-## Aplicación Full Stack de Gestión de Tareas
+### Aplicación Full Stack de Gestión de Tareas
 
 
 Descripción general
@@ -40,18 +40,7 @@ Logout
 Conexión con API backend
 DevOps / Scripts
 
-Scripts en PowerShell incluidos:
-
-deploy.ps1
-monitor.ps1
-backup-db.ps1
-seed.ps1
-start-dev.ps1
-Control de versiones
-Git inicializado
-Repositorio en GitHub conectado
-Frontend y backend subidos correctamente
-Tecnologías utilizadas
+# Tecnologías utilizadas
 Frontend
 React
 JavaScript
@@ -72,7 +61,7 @@ GitHub
 PowerShell
 npm
 pip
-Estructura del proyecto
+# Estructura del proyecto
 Final-Ops/
 │
 ├── backend/
@@ -96,7 +85,7 @@ Final-Ops/
 │
 ├── .gitignore
 └── README.md
-Cómo ejecutar el proyecto
+# Cómo ejecutar el proyecto
 1. Clonar el repositorio
 git clone https://github.com/Jorgeotero1998/Final-Ops.git
 Configuración del backend
