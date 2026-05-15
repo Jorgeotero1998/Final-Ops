@@ -1,0 +1,165 @@
+﻿*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:40px;
+}
+
+.topbar h1{
+  font-size:36px;
+}
+
+.topbar button{
+  background:#ef4444;
+  border:none;
+  color:white;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.task-form{
+  background:#1e293b;
+  padding:25px;
+  border-radius:20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  margin-bottom:40px;
+}
+
+.task-form textarea{
+  min-height:100px;
+  resize:none;
+}
+
+.task-form button{
+  grid-column:span 2;
+  background:#3b82f6;
+  border:none;
+  color:white;
+  padding:14px;
+  border-radius:10px;
+  font-size:16px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+input,
+textarea,
+select{
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:#334155;
+  color:white;
+  font-size:15px;
+}
+
+.task-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+
+.task-card{
+  background:#1e293b;
+  padding:25px;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.task-card h3{
+  font-size:24px;
+}
+
+.task-card p{
+  color:#cbd5e1;
+}
+
+.actions{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+.actions button{
+  flex:1;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.actions button:first-child{
+  background:#22c55e;
+  color:white;
+}
+
+.delete{
+  background:#ef4444 !important;
+  color:white;
+}
+
+.auth-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0f172a;
+}
+
+.auth-card{
+  width:400px;
+  background:#1e293b;
+  padding:40px;
+  border-radius:20px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.auth-card h1{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.auth-card button{
+  background:#3b82f6;
+  border:none;
+  color:white;
+  padding:14px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.switch{
+  text-align:center;
+  cursor:pointer;
+  color:#60a5fa;
+}
