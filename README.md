@@ -1,4 +1,6 @@
-Aplicación Full Stack de Gestión de Tareas
+## Aplicación Full Stack de Gestión de Tareas
+
+
 Descripción general
 
 OpsFlow es una aplicación full-stack de gestión de tareas construida con:
@@ -9,9 +11,7 @@ SQLite (Base de datos)
 Autenticación con JWT
 Scripts de automatización en PowerShell
 
-Este proyecto fue desarrollado como proyecto final full-stack y como proyecto de portfolio profesional.
 
-Repositorio: https://github.com/Jorgeotero1998/Final-Ops
 
 Estado actual del proyecto
 Funcionalidades completadas
